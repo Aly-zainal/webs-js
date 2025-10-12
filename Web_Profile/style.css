@@ -1,0 +1,91 @@
+body {
+    background-color:blueviolet;
+    
+}
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 53, 202);
+    align-items: center;
+    padding: 0px 20px ;
+    position: sticky;
+    z-index: 10000; ;
+    top: 0px ;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navdiv li {
+    display: inline-table;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.navdiv input[type=text] {
+    float:right;
+    padding: 5px;
+    border: 0px;
+    margin-top: 11px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.hero{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border: 1px solid grey;
+ 
+}
+
+#foto{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#input-file{
+    display: none;
+}
+
+#Uploadbtn{
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    background: violet;
+    color: blueviolet;
+    line-height: 30px;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+ 
+.body{
+    height: 100px;
+    width: 100px;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    border: 50px;
+
+}
+
+#deskripsi {
+    height: auto;
+    width: auto;
+
+}
