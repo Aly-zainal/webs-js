@@ -1,0 +1,11 @@
+body{ font-family: Arial, sans-serif; max-width:900px; margin:20px auto; padding:0 16px; }
+header{ display:flex; justify-content:space-between; align-items:center; }
+nav a{ margin-right:10px; }
+.err{ color:#a00; }
+.ok{ color:green; }
+.grid{ display:flex; flex-wrap:wrap; gap:8px; }
+.item img{ max-width:200px; display:block; }
+.item video{ max-width:200px; }
+.card{ border:1px solid #ddd; padding:8px; margin:8px 0; }
+table{ border-collapse:collapse; width:100%; }
+table th, table td{ border:1px solid #ccc; padding:6px; }
